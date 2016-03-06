@@ -20,7 +20,7 @@ Time = 0.05
 
 while j < 200:
     y = y + [ (np.sin(np.pi*x*k)  / (np.pi*x*k) )**2 ]
-    line, = ax.plot(x, y[j], 'b') # all the plots will be blue
+    line, = ax.plot(x, y[j], 'k') # all the plots will be black
     plt.draw()
     plt.pause(Time)
     print j
